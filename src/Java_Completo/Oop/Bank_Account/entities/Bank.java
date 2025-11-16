@@ -35,9 +35,9 @@ public class Bank {
 
     @Override
     public String toString() {
-        return "Account data: " +
-                "Number = " + getNumber() +
-                ", Name = " + getName() +
-                ", Balance = " + String.format("%.2f", balance);
+        return "Account data: \n" +
+                "Account: " + getNumber() +
+                ", Holder: " + getName() +
+                ", Balance: " + String.format("%.2f", balance);
     }
 }
