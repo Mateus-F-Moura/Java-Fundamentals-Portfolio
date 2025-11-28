@@ -10,24 +10,22 @@ public class Sum_of_Vectors {
 
             int n = sc.nextInt();
 
-            int[] a = new int[n];
+            int[][] values = new int[n][2];
 
             System.out.println("Type the values of vector A:");
-            for (int i = 0; i < a.length; i++) {
-                a[i] = sc.nextInt();
+            for (int i = 0; i < values.length; i++) {
+                values[i][0] = sc.nextInt();
             }
 
-            int[] b = new int[n];
-
             System.out.println("Type the values of vector B:");
-            for (int i = 0; i < b.length; i++) {
-                b[i] = sc.nextInt();
+            for (int i = 0; i < values.length; i++) {
+                values[i][1] = sc.nextInt();
             }
 
             int[] sum = new int[n];
 
             for (int i = 0; i < sum.length; i++) {
-                sum[i] = a[i] + b[i];
+                sum[i] = values[i][0] + values[i][1];
             }
 
             System.out.println("Sum of vectors:");
