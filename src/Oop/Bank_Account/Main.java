@@ -1,6 +1,4 @@
-package Oop.Bank_Account.application;
-
-import Oop.Bank_Account.entities.Bank;
+package Oop.Bank_Account;
 
 import java.util.Locale;
 import java.util.Scanner;

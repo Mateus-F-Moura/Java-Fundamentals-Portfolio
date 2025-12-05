@@ -1,6 +1,4 @@
-package Arrays.Approved.application;
-
-import Arrays.Approved.entities.Student;
+package Arrays.Approved;
 
 import java.util.Locale;
 import java.util.Scanner;

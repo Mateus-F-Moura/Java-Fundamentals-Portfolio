@@ -1,4 +1,4 @@
-package Oop.Bank_Account.entities;
+package Oop.Bank_Account;
 
 public class Bank {
 

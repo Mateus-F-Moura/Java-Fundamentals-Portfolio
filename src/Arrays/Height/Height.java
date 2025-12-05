@@ -1,13 +1,15 @@
-package Arrays.Age.entities;
+package Arrays.Height;
 
-public class Person {
+public class Height {
 
     private String name;
     private int age;
+    private double height;
 
-    public Person(String name, int age) {
+    public Height(String name, int age, double height) {
         this.name = name;
         this.age = age;
+        this.height = height;
     }
 
     public String getName() {
@@ -22,7 +24,4 @@ public class Person {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 }

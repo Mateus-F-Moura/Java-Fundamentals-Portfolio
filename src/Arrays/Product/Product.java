@@ -1,4 +1,4 @@
-package Arrays.Product.entities;
+package Arrays.Product;
 
 public class Product {
 
@@ -22,7 +22,4 @@ public class Product {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
 }

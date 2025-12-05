@@ -1,4 +1,4 @@
-package Arrays.Approved.entities;
+package Arrays.Approved;
 
 public class Student {
 
@@ -16,14 +16,6 @@ public class Student {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public double[] getGrades() {
-        return grades;
-    }
-
-    public void setGrades(double[] grades) {
-        this.grades = grades;
     }
 
     public double sum() {

@@ -1,6 +1,4 @@
-package Arrays.Height.application;
-
-import Arrays.Height.entities.Height;
+package Arrays.Height;
 
 import java.util.Locale;
 import java.util.Scanner;

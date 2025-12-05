@@ -1,6 +1,4 @@
-package Arrays.Age.application;
-
-import Arrays.Age.entities.Person;
+package Arrays.Age;
 
 import java.util.Locale;
 import java.util.Scanner;

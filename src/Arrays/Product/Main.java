@@ -1,6 +1,4 @@
-package Arrays.Product.application;
-
-import Arrays.Product.entities.Product;
+package Arrays.Product;
 
 import java.util.Locale;
 import java.util.Scanner;
