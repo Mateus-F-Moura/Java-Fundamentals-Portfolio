@@ -1,6 +1,6 @@
-package Enums.Workers.entities;
+package Compositions.Workers.entities;
 
-import Enums.Workers.entities.enums.WorkerLevel;
+import Compositions.Workers.entities.enums.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.List;

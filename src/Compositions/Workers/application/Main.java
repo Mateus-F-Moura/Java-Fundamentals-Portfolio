@@ -1,9 +1,9 @@
-package Enums.Workers.application;
+package Compositions.Workers.application;
 
-import Enums.Workers.entities.Department;
-import Enums.Workers.entities.HourContract;
-import Enums.Workers.entities.Worker;
-import Enums.Workers.entities.enums.WorkerLevel;
+import Compositions.Workers.entities.Department;
+import Compositions.Workers.entities.HourContract;
+import Compositions.Workers.entities.Worker;
+import Compositions.Workers.entities.enums.WorkerLevel;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

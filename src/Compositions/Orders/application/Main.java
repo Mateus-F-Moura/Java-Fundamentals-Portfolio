@@ -1,7 +1,7 @@
-package Enums.Orders.application;
+package Compositions.Orders.application;
 
-import Enums.Orders.entities.Order;
-import Enums.Orders.entities.enums.OrderStatus;
+import Compositions.Orders.entities.Order;
+import Compositions.Orders.entities.enums.OrderStatus;
 
 import java.time.Instant;
 import java.util.Scanner;

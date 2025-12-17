@@ -1,6 +1,6 @@
-package Enums.Orders.entities;
+package Compositions.Orders.entities;
 
-import Enums.Orders.entities.enums.OrderStatus;
+import Compositions.Orders.entities.enums.OrderStatus;
 
 import java.time.Instant;
 

@@ -1,4 +1,4 @@
-package Enums.Workers.entities;
+package Compositions.Workers.entities;
 
 public class Department {
     private String name;
