@@ -19,37 +19,58 @@ public class Main {
             System.out.print("Holder: ");
             String holder = sc.nextLine();
 
-            Account account = new Account(number, holder);
+            System.out.print("Is it a business account? (y/n): ");
+            char type = sc.next().toLowerCase().charAt(0);
 
-            System.out.println();
-            System.out.println("Your Account:");
-            System.out.println(account);
+            Account account;
+            if (type == 'y') {
+                System.out.print("Loan limit: ");
+                double loanLimit = sc.nextDouble();
+                account = new BusinessAccount(number, holder, loanLimit);
+            } else {
+                account = new Account(number, holder);
+            }
 
-            System.out.println();
-            System.out.print("Amount to deposit: ");
-            double depositAmount = sc.nextDouble();
-            account.deposit(depositAmount);
+            int option = -1;
+            while (option != 0) {
+                System.out.println("\n===== Menu =====");
+                System.out.println("1-Deposit\n2-Withdraw");
 
-            System.out.println();
-            System.out.print("Amount to withdraw: ");
-            double withdrawAmount = sc.nextDouble();
-            account.withdraw(withdrawAmount);
+                if (account instanceof BusinessAccount) {
+                    System.out.println("3-Loan");
+                }
 
-            System.out.println();
-            System.out.println("Your Account:");
-            System.out.println(account);
+                System.out.println("0-Exit");
+                System.out.print("Option: ");
+                option = sc.nextInt();
 
-            System.out.println();
-            System.out.println("=====Business Account Data=====");
-            BusinessAccount businessAccount = new BusinessAccount(number, holder, 10000.00);
+                switch (option) {
+                    case 1:
+                        System.out.print("Amount to deposit: ");
+                        account.deposit(sc.nextDouble());
+                        break;
+                    case 2:
+                        System.out.print("Amount to withdraw: ");
+                        account.withdraw(sc.nextDouble());
+                        break;
+                    case 3:
+                        if (account instanceof BusinessAccount) {
+                            System.out.print("Amount to loan: ");
+                            double amount = sc.nextDouble();
+                            ((BusinessAccount) account).loan(amount);
+                        } else {
+                            System.out.println("This option is only for Business Accounts!");
+                        }
+                        break;
+                    case 0:
+                        break;
+                    default:
+                        System.out.println("Invalid option!");
+                }
 
-            System.out.print("Amount to loan: ");
-            double loanAmount = sc.nextDouble();
-            businessAccount.loan(loanAmount);
-
-            System.out.println();
-            System.out.println("Your Business Account:");
-            System.out.println(businessAccount);
+                System.out.println("\nYour Account Info:");
+                System.out.println(account);
+            }
         }
     }
 }
