@@ -17,7 +17,7 @@ Exercises covering conditional structures such as if-else statements, switch-cas
 ### 🔄 Loops
 Exercises exploring iteration structures including for loops, while loops, do-while loops, nested loops, and real-world problem-solving applications.
 
-### 🎯 Oop (Object-Oriented Programming)
+### 🎯 OopPrincipals (Object-Oriented Programming)
 Projects demonstrating core OOP principles through practical implementations:
 - Banking systems and financial operations
 - Geometric calculations and shape modeling
