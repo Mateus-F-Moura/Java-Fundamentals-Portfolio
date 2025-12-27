@@ -21,9 +21,9 @@ public class Main {
             String holder = sc.nextLine();
 
             System.out.println("Select account type:");
-            System.out.println("1 - Common Account");
-            System.out.println("2 - Business Account");
-            System.out.println("3 - Savings Account");
+            System.out.println("1 - Business Account");
+            System.out.println("2 - Savings Account");
+
             System.out.print("Option: ");
             int typeOption = sc.nextInt();
 
@@ -38,7 +38,7 @@ public class Main {
                     double interestRate = sc.nextDouble();
                     yield new SavingsAccount(number, holder, interestRate);
                 }
-                default -> new Account(number, holder);
+                default -> throw new IllegalStateException("Unexpected value: " + typeOption);
             };
 
             int option = -1;
