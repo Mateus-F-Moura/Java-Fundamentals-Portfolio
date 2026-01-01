@@ -1,4 +1,4 @@
-package Exceptions.Reservation.model.exceptions;
+package ExceptionsTreatment.Reservation.model.exceptions;
 
 import java.io.Serial;
 

@@ -1,6 +1,6 @@
-package Exceptions.Reservation.model.entities;
+package ExceptionsTreatment.Reservation.model.entities;
 
-import Exceptions.Reservation.model.exceptions.DomainException;
+import ExceptionsTreatment.Reservation.model.exceptions.DomainException;
 
 import java.time.LocalDate;
 import java.time.Period;
