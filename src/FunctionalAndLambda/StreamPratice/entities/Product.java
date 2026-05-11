@@ -1,4 +1,4 @@
-package FunctionalAndLambda.StreamPratice.model.entities;
+package FunctionalAndLambda.StreamPratice.entities;
 
 public class Product {
     private String name;

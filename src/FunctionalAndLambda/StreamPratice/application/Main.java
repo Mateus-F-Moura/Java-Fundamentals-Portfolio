@@ -1,9 +1,8 @@
 package FunctionalAndLambda.StreamPratice.application;
 
-import FunctionalAndLambda.StreamPratice.model.entities.Product;
+import FunctionalAndLambda.StreamPratice.entities.Product;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
