@@ -1,6 +1,6 @@
-package Lambda.Functions.app;
+package FunctionalAndLambda.Functions.app;
 
-import Lambda.Functions.entities.Product;
+import FunctionalAndLambda.Functions.entities.Product;
 
 import java.util.ArrayList;
 import java.util.List;

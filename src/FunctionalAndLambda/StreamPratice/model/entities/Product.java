@@ -1,7 +1,6 @@
-package Lambda.Consumer.entities;
+package FunctionalAndLambda.StreamPratice.model.entities;
 
 public class Product {
-
     private String name;
     private Double price;
 
@@ -24,18 +23,5 @@ public class Product {
 
     public void setPrice(Double price) {
         this.price = price;
-    }
-
-    public static void staticPriceUpdate(Product p) {
-        p.setPrice(p.getPrice() * 1.1);
-    }
-
-    public void nonStaticPriceUpdate() {
-        price = price * 1.1;
-    }
-
-    @Override
-    public String toString() {
-        return name + ", " + String.format("%.2f", price);
     }
 }

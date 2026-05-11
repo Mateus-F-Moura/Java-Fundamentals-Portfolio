@@ -1,6 +1,6 @@
-package Lambda.Predicate.app;
+package FunctionalAndLambda.Predicate.app;
 
-import Lambda.Predicate.entities.Product;
+import FunctionalAndLambda.Predicate.entities.Product;
 
 import java.util.ArrayList;
 import java.util.List;

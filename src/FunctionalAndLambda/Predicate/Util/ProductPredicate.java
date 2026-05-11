@@ -1,6 +1,6 @@
-package Lambda.Predicate.Util;
+package FunctionalAndLambda.Predicate.Util;
 
-import Lambda.Predicate.entities.Product;
+import FunctionalAndLambda.Predicate.entities.Product;
 
 import java.util.function.Predicate;
 
