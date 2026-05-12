@@ -12,7 +12,7 @@ The main purpose of this portfolio is to document my learning process, reinforce
 
 ## Project Structure
 
-All source code is organized inside the [`src`](./src) folder, where the content is separated by learning topics.
+All source code is organized within the standard Maven directory structure `src/main/java/br/com/mfmoura/fundamentals`, where the content is cleanly separated by learning topics using semantic class names.
 
 ### Studied Modules
 
@@ -61,7 +61,8 @@ This repository represents the practice of concepts such as:
 
 ## Technologies Used
 
-- **Java**
+- **Java 17**
+- **Maven** (Build automation and dependency management)
 - **IntelliJ IDEA**
 - Git and GitHub
 
@@ -72,11 +73,14 @@ This repository represents the practice of concepts such as:
    git clone https://github.com/Mateus-F-Moura/Java-Fundamentals-Portfolio.git
    ```
 
-2. Open the project in a Java IDE such as IntelliJ IDEA.
+2. Open the project in a Java IDE such as IntelliJ IDEA. The IDE will automatically detect the `pom.xml` file and configure the project as a Maven project.
 
-3. Navigate to the `src` folder.
+3. Navigate to `src/main/java/br/com/mfmoura/fundamentals/`.
 
-4. Run the files according to the module you want to study.
+4. Run the files according to the module you want to study. Alternatively, you can use Maven from the command line:
+   ```bash
+   mvn clean compile
+   ```
 
 ## Repository Purpose
 
